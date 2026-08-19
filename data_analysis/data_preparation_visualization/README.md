@@ -15,3 +15,8 @@ A function to convert two columns to a different data type.
 ## `3-clean_total_chargs.py`
 
 A function to clean missing values in TotalCharges.
+
+## `4-remove_duplicates.py`
+
+A function that removes duplicate rows.
+

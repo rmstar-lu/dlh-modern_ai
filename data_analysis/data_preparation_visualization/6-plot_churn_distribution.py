@@ -24,5 +24,4 @@ def plot_churn_distribution(df):
     colors = [{'No': 'skyblue', 'Yes': 'salmon'}[yn] for yn in vc.index]
     plt.bar(vc.index, vc, color=colors)
 
-    plt.tight_layout()
     plt.show()

@@ -22,7 +22,8 @@ def plot_categorical_distributions(df, columns_to_plot=None):
         columns_to_plot = [c for c, t in zip(df.columns, df.dtypes)
                            if c != 'Churn' and t == 'object']
     if columns_to_plot:
-        n_cols = min(3, len(columns_to_plot))
+        # n_cols = min(3, len(columns_to_plot))
+        n_cols = 3  # use just a 3rd of the width for single column(?!)
         n_rows = 1 + (len(columns_to_plot) - 1) // n_cols
     else:
         n_cols, n_rows = 1, 1

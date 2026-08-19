@@ -20,3 +20,6 @@ A function to clean missing values in TotalCharges.
 
 A function that removes duplicate rows.
 
+## `5-drop_customerID.py`
+
+A function that drops the customerID column.

@@ -23,3 +23,7 @@ A function that removes duplicate rows.
 ## `5-drop_customerID.py`
 
 A function that drops the customerID column.
+
+## `6-plot_churn_distribution.py`
+
+A function to plot the distribution of the Churn column.

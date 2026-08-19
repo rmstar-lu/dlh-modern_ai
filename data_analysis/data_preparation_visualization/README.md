@@ -27,3 +27,8 @@ A function that drops the customerID column.
 ## `6-plot_churn_distribution.py`
 
 A function to plot the distribution of the Churn column.
+
+## `7-plot_categorical_distributions.py`
+
+A function to plot the distributions of the categorical features.
+

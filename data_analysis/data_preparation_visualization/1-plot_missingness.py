@@ -25,7 +25,7 @@ def plot_missingness(df):
     """
     plt.figure(figsize=(12, 8))
 
-    plt.title("Missingness plot")
+    plt.title("Missingness Plot")
 
     x, y = np.nonzero(df.isna().values)
 

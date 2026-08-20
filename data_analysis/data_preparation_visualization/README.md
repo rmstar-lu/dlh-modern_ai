@@ -12,7 +12,7 @@ A function to visualize missing values in a DataFrame.
 
 A function to convert two columns to a different data type.
 
-## `3-clean_total_chargs.py`
+## `3-clean_total_charges.py`
 
 A function to clean missing values in TotalCharges.
 
@@ -32,3 +32,6 @@ A function to plot the distribution of the Churn column.
 
 A function to plot the distributions of the categorical features.
 
+## `8-plot_continuous_distributions.py`
+
+A function to plot the distributions of continuous numerical features.

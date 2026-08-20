@@ -56,3 +56,7 @@ A function that performs chi-square tests for categorical features.
 
 A function that performs Welch's t-tests for continuous numeric features.
 
+## `14-create_features.py`
+
+A function that engineers new features from the dataset.
+

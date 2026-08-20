@@ -47,3 +47,7 @@ A function that visualizes churn rates per category.
 ## `11-plot_numeric_vs_churn`
 
 A function that compares distributions of continuous numerical features by churn.
+
+## `12-chi_square_tests.py`
+
+A function that performs chi-square tests for categorical features.

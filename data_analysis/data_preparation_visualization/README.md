@@ -40,3 +40,7 @@ A function to plot the distributions of continuous numerical features.
 
 A funcion to plot the correlation between continuous numerical features using seaborn.
 
+## `10-plot_categorical_vs_churn`
+
+A function that visualizes churn rates per category.
+

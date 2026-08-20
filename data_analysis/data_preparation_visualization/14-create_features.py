@@ -30,8 +30,8 @@ def create_features(df):
         'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies'
     ]
     df['NumServices'] = (df[services] == 'Yes').sum(axis=1) + \
-            1 * (df.InternetService == 'DSL') + \
-            1 * (df.InternetService == 'Fiber optic')
+        1 * (df.InternetService == 'DSL') + \
+        1 * (df.InternetService == 'Fiber optic')
     bins = [0, 12, 24, 48, 60, df.tenure.max()]
     names = ['0-12', '13-24', '25-48', '49-60', '60+']
     df['TenureGroup'] = pd.cut(df.tenure, bins, labels=names)

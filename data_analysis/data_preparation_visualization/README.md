@@ -35,3 +35,8 @@ A function to plot the distributions of the categorical features.
 ## `8-plot_continuous_distributions.py`
 
 A function to plot the distributions of continuous numerical features.
+
+## `9-plot_correlation_heatmap.py`
+
+A funcion to plot the correlation between continuous numerical features using seaborn.
+

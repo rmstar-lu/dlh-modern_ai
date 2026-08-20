@@ -25,7 +25,8 @@ def plot_categorical_vs_churn(df, col):
 
     plt.title(f"Churn Rate by {col}")
     vc = df[col].value_counts().sort_index()
-    vcy = df[col].loc[df['Churn'] == 'Yes'].value_counts().sort_index()
+    vcy = df[col].loc[df['Churn'] == 'Yes'] \
+        .value_counts().reindex(vc.index, fill_value=0)
     plt.bar(vcy.index, vcy / vc)
     plt.ylabel("Churn Rate")
     plt.xticks(rotation=45)

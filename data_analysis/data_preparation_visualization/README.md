@@ -51,3 +51,8 @@ A function that compares distributions of continuous numerical features by churn
 ## `12-chi_square_tests.py`
 
 A function that performs chi-square tests for categorical features.
+
+## `13-ttest_numeric.py`
+
+A function that performs Welch's t-tests for continuous numeric features.
+

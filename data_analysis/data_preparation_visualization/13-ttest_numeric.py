@@ -5,11 +5,13 @@ A function that performs Welch's t-tests for continuous numeric features
 
 df: pandas DataFrame with Churn column
 
-Computes t-test p-value comparing Churn=Yes vs Churn=No for each numeric feature
+Computes t-test p-value comparing Churn=Yes vs Churn=No for each numeric
+feature
 
 The Hypothesis being tested is:
 
-H_0 (null): The means of the variable are equal in Churn=Yes and Churn=No groups
+H_0 (null): The means of the variable are equal in Churn=Yes and Churn=No
+groups
 H_1 (alternative): The means differ significantly
 Returns a dictionary: {feature_name: p_value}
 

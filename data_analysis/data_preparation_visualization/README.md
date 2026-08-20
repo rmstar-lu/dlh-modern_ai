@@ -44,3 +44,6 @@ A funcion to plot the correlation between continuous numerical features using se
 
 A function that visualizes churn rates per category.
 
+## `11-plot_numeric_vs_churn`
+
+A function that compares distributions of continuous numerical features by churn.

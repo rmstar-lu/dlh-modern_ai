@@ -10,6 +10,9 @@ categorical feature and the target variable Churn, excluding Churn itself
 from the features tested.
 
 Returns a dictionary: {feature_name: p_value}
+
+If the p_valuei for some feature is >= 0.05 that feature has no significant
+relationship to the Churn variable.
 """
 import pandas as pd
 from scipy import stats

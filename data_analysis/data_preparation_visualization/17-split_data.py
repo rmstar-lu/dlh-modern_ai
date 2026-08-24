@@ -16,8 +16,8 @@ from sklearn import model_selection
 def split_data(df, target='Churn', test_size=0.2, random_state=42):
     """ Split data into train/test sets """
 
-    X = df.drop(columns=['Churn'])
-    y = df['Churn']
+    X, y = df.drop(columns=['Churn']), df['Churn']
     return model_selection.train_test_split(X, y,
-        test_size=test_size, random_state=random_state, stratify=y
-    )
+                                            test_size=test_size,
+                                            random_state=random_state,
+                                            stratify=y)

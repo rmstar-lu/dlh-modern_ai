@@ -4,3 +4,6 @@
 
 EDA
 
+## Machine learning
+
+Tree models, linear classifiers

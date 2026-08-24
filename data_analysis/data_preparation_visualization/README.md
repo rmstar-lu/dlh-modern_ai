@@ -68,3 +68,6 @@ A function that encodes features for modeling using Scikit-learn.
 
 A function that standardizes numeric columns (so their mean=0 and std=1).
 
+## `17-split_data.py`
+
+A function  splits data into train/test sets using stratified sampling.

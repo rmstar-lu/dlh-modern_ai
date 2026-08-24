@@ -63,3 +63,8 @@ A function that engineers new features from the dataset.
 ## `15-encode_features.py`
 
 A function that encodes features for modeling using Scikit-learn.
+
+## `16-scale_numeric.py`
+
+A function that standardizes numeric columns (so their mean=0 and std=1).
+

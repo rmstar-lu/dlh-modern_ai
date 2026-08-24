@@ -29,11 +29,11 @@ def encode_features(df):
     df['Churn'] = churn_le.transform(df['Churn'])
 
     binary_oe = preprocessing.OrdinalEncoder(
-            categories=[["No", "Yes"]], dtype=int)
+            categories=[["No", "Yes"]])
     binary_cols = [
             'Partner', 'Dependents', 'PaperlessBilling', 'SeniorCitizen']
     for col in binary_cols:
-        df[[col]] = binary_oe.fit_transform(df[[col]])
+        df[[col]] = binary_oe.fit_transform(df[[col]]).astype(int)
 
     onehot_cols = ['Contract', 'PaymentMethod']
     ohe = preprocessing.OneHotEncoder(drop='first', dtype=int)

@@ -10,7 +10,6 @@ y: Target labels
 Returns:
 None
 """
-from sklearn import tree
 
 
 def train_tree(clf, X, y):

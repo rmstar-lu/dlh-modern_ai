@@ -60,3 +60,6 @@ A function that performs Welch's t-tests for continuous numeric features.
 
 A function that engineers new features from the dataset.
 
+## `15-encode_features.py`
+
+A function that encodes features for modeling using Scikit-learn.

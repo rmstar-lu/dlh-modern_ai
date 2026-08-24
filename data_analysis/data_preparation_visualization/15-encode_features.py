@@ -29,7 +29,7 @@ def encode_features(df):
     df['Churn'] = churn_le.transform(df['Churn'])
 
     binary_oe = preprocessing.OrdinalEncoder(
-            categories=[["No", "Yes"]])
+            categories=[["No", "Yes"]])  # dtype=int) would work better
     binary_cols = [
             'Partner', 'Dependents', 'PaperlessBilling', 'SeniorCitizen']
     for col in binary_cols:
@@ -42,9 +42,10 @@ def encode_features(df):
             ohe.fit_transform(df[[col]]).toarray()
     df.drop(columns=onehot_cols, inplace=True)
 
-    groups = list(df['TenureGroup'].unique())
-    groups.sort()
-    tenure_oe = preprocessing.OrdinalEncoder(
-            categories=[groups], dtype=int)
-    df[['TenureGroup']] = tenure_oe.fit_transform(df[['TenureGroup']])
+    # groups = list(df['TenureGroup'].unique())
+    # groups.sort()
+    tenure_oe = preprocessing.OrdinalEncoder()
+    #       categories=[groups], dtype=int)
+    df[['TenureGroup']] = \
+        tenure_oe.fit_transform(df[['TenureGroup']]).astype(int)
     return df, churn_le, binary_oe, tenure_oe

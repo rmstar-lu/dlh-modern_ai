@@ -11,4 +11,8 @@ A function to train a tree-based classifier.
 
 ## `2-draw.py`
 
-å function to displays the textual structure of a trained decision tree classifier.
+A function to display the textual structure of a trained decision tree classifier.
+
+## `3-generate_predictions.py`
+
+A function to generate predictions from a trained tree-based classifier.

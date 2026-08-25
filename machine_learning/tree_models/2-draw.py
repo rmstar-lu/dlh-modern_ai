@@ -12,6 +12,7 @@ Returns:
 None. The function prints a readable text representation of the
 decision tree structure.
 """
+from sklearn import tree
 
 
 def draw(clf, feature_names, class_names):
@@ -19,24 +20,6 @@ def draw(clf, feature_names, class_names):
     A function to display the textual structure of a trained
     decision tree classifier
     """
-    tree = clf.tree_
-    children_left = tree.children_left
-    children_right = tree.children_right
-    feature = tree.feature
-    threshold = tree.threshold.round(2)
-    values = tree.value
-
-    def print_node(curr, depth):
-        """ Recursively print the tree structure """
-
-        print("|   " * (depth - 1) + "|--- ", end="")
-        if children_left[curr] != children_right[curr]:
-            print(f"{feature_names[feature[curr]]} <= {threshold[curr]}")
-            print_node(children_left[curr], depth + 1)
-            print("|   " * (depth - 1) + "|--- ", end="")
-            print(f"{feature_names[feature[curr]]} >  {threshold[curr]}")
-            print_node(children_right[curr], depth + 1)
-        else:
-            print(f"class: {class_names[values[curr].argmax()]}")
-
-    print_node(0, 1)
+    print(tree.export_text(clf,
+                           feature_names=feature_names,
+                           class_names=class_names))

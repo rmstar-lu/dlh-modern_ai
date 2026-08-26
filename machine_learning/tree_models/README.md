@@ -16,3 +16,7 @@ A function to display the textual structure of a trained decision tree classifie
 ## `3-generate_predictions.py`
 
 A function to generate predictions from a trained tree-based classifier.
+
+## `4-evaluate.py`
+
+A function that generates a detailed classification report.

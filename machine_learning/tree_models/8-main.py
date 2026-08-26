@@ -7,7 +7,7 @@ generate_predictions = __import__('3-generate_predictions').generate_predictions
 evaluate = __import__('4-evaluate').evaluate
 get_pruning_path = __import__('6-pruning_path').get_pruning_path
 prune_and_evaluate_trees = __import__('7-prune_decision_tree').prune_and_evaluate_trees
-get_best_alpha = __import__('8-best_cpp_alpha').get_best_alpha
+get_best_alpha = __import__('8-best_ccp_alpha').get_best_alpha
 
 
 wine = load_wine()

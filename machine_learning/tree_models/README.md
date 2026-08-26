@@ -24,3 +24,7 @@ A function that generates a detailed classification report.
 ## `5-pre_pruning.py`
 
 A function to perform a Grid Search for the best pre-pruning hyperparameters.
+
+## `6-pruning_path.py`
+
+A function that retrieves the cost-complexity pruning path for a given decision tree classifier.

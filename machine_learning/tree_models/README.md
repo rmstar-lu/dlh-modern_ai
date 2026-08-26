@@ -28,3 +28,7 @@ A function to perform a Grid Search for the best pre-pruning hyperparameters.
 ## `6-pruning_path.py`
 
 A function that retrieves the cost-complexity pruning path for a given decision tree classifier.
+
+## `7-prune_decision_tree.py`
+
+Train multiple decision tree classifiers over a range of cost-complexity pruning parameters (ccp_alpha) and evaluate their performance.

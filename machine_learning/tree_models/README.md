@@ -32,3 +32,7 @@ A function that retrieves the cost-complexity pruning path for a given decision 
 ## `7-prune_decision_tree.py`
 
 Train multiple decision tree classifiers over a range of cost-complexity pruning parameters (ccp_alpha) and evaluate their performance.
+
+## `8-best_ccp_alpha.py`
+
+Select the best pruning value ccp_alpha for a set of trained decision trees.

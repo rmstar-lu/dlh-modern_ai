@@ -20,3 +20,7 @@ A function to generate predictions from a trained tree-based classifier.
 ## `4-evaluate.py`
 
 A function that generates a detailed classification report.
+
+## `5-pre_pruning.py`
+
+A function to perform a Grid Search for the best pre-pruning hyperparameters.

@@ -40,3 +40,7 @@ Select the best pruning value ccp_alpha for a set of trained decision trees.
 ## `9-random_forest.py`
 
 Create a random forest classifier.
+
+## `10-feature_importance.py`
+
+A function that computes and returns the feature importances from a trained random forest model.

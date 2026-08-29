@@ -36,3 +36,7 @@ Train multiple decision tree classifiers over a range of cost-complexity pruning
 ## `8-best_ccp_alpha.py`
 
 Select the best pruning value ccp_alpha for a set of trained decision trees.
+
+## `9-random_forest.py`
+
+Create a random forest classifier.

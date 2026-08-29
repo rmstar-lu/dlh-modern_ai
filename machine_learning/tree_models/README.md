@@ -44,3 +44,8 @@ Create a random forest classifier.
 ## `10-feature_importance.py`
 
 A function that computes and returns the feature importances from a trained random forest model.
+
+## `11-boosting.py`
+
+A comparison of boosting algorithms.
+

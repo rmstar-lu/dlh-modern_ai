@@ -21,3 +21,11 @@ A function that creates and returns a Lasso Regression model using Scikit-learn.
 
 A function that helps generate model explanations using the SHAP library.
 
+## `5-logisitc_regression.py`
+
+A function to create a logistic regression model using Scikit-learn, which performs binary classification by fitting a logistic function.
+
+## `6-svm.py`
+
+A function to create a Support Vector Machine (SVM) classifier using Scikit-learn with the specified kernel.
+

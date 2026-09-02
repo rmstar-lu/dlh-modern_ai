@@ -12,3 +12,8 @@ A function to compute common evaluation metrics for regression tasks using Sciki
 ## `2-ridge_regression.py`
 
 A function that creates and returns a Ridge Regression model using Scikit-learn.
+
+## `3-Lasso_regression.py`
+
+A function that creates and returns a Lasso Regression model using Scikit-learn.
+

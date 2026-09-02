@@ -17,3 +17,7 @@ A function that creates and returns a Ridge Regression model using Scikit-learn.
 
 A function that creates and returns a Lasso Regression model using Scikit-learn.
 
+## `4-shap.py`
+
+A function that helps generate model explanations using the SHAP library.
+
